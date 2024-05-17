@@ -888,6 +888,12 @@ searchB:hover{
 
 /*---------------------------------css mobile---------------------------------------*/
 
+
+.titleCMobile{
+    display: none;
+    margin-bottom: 15px;
+}
+
 .mobileButton{
     display: none;
 }
@@ -978,13 +984,12 @@ searchB:hover{
     .mobileButton{
         display: flex;
         background-color: #a9091f;
-        width: 4%;
+        width: 10%;
         height: 100%;
         margin-left: 3%;
         margin-right: -8%;
-
         border-right: 1px solid lightgray;
-        margin-right: -4%;
+        margin-right: 6%;
         padding-right: 6px;
         padding-bottom: 27px;
         padding-top: 27px;
@@ -1047,12 +1052,10 @@ searchB:hover{
     }
 
     .elemntMList{
-
         text-decoration: none;
         color: white;
         position: absolute;
-        z-index: 1000;
-        margin-top: -5%;
+        margin-top: -10%;
     }
 
     .elemntMList:hover{
@@ -1065,10 +1068,11 @@ searchB:hover{
         flex-direction: column;
         background-color: #a9091f;
         position: absolute;
-        top: 7%;
-
-        width: 50%;
+        top: 4%;
+        width: 82%;
         margin-top: 0%;
+        height: 520%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
     }
 
     .mobileTitleC{
@@ -1140,26 +1144,27 @@ searchB:hover{
         display: flex;
         flex-direction: column;
         border-bottom: 1px solid lightgray;
-        background-image:url('https://placehold.co/700x700/lightgray/gray/png');
+        background-image:url('https://placehold.co/350x350/lightgray/gray/png');
         background-size: cover;
     }
 
     .titleC{
+        display: none;
+    }
+    .titleCMobile{
         display: flex;
-        z-index: 1000;
         color: white;
         font-size: 20px;
         font-weight: bold;
         height: 50px;
     }
-
     .linkTitleC{
         text-decoration: none;
         color: white;
         background-image: none;
         width: 35%;
         height: 10%;
-        margin-top: 90%;
+        margin-top: 0%;
     }
 
     .linkTitleC:hover{
@@ -1260,10 +1265,17 @@ searchB:hover{
 
     }
 
+    .followB{
+        display: flex;
+        width: 100%;
+    }
+
     .textBR{
         font-weight: bold;
-        margin-right: 64%;
+        margin-right: 26%;
     }
+
+
 
     .searchBox{
         display: none;
@@ -1272,7 +1284,7 @@ searchB:hover{
     .searchBoxM{
         display: flex;
         justify-content: center;
-        margin-top: 20%;
+        margin-top: 25%;
         margin-bottom: 0%;
         margin-left: -42%;
     }
@@ -1307,4 +1319,19 @@ searchB:hover{
         display: flex;
         z-index: 1000;
     }
+
+    .diritti{
+        display:flex;
+        text-align: left;
+    }
+
+    .x{
+        border-left: none;
+    }
+
+    .newsImm{
+        width: 350px;
+        height: 350px;
+    }
+
 }
