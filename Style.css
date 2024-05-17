@@ -1,3 +1,7 @@
+.body{
+    overflow-x: hidden;
+}
+
 .header{
     display: flex;
     #position: relative;
@@ -1101,6 +1105,10 @@ searchB:hover{
     }
 
     .mobileNav:target{
+        display: block;
+    }
+
+    .mobileNav:hover{
         display: block;
     }
 
